@@ -1,0 +1,63 @@
+html{
+    background-color: #0E131F;
+}
+.nav{
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#0E131F;
+}
+#searchbar:focus {
+    width: 55%;
+    transition: width 0.6s ease-in-out;
+}
+#searchbar{
+    width: 45%;
+    padding: 10px 15px;
+    border: 1px solid 	#056559;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    background-color: #38405f;
+}
+#logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-radius: 15px;
+
+}
+#Account{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: rgba(255,255,255,1);
+}
+
+footer{
+    
+    display: flex;
+    display: inline-flex;
+    width: 90%;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: space-between;
+    position: fixed ;
+    bottom: 0px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-top: 3px solid #ffffff;
+}
